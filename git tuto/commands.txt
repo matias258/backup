@@ -1,0 +1,74 @@
+git init: Utilizo este proyecto x en git
+
+git add file: pasa archivos del working directory al staging area.
+(donde file es el archivo q queremos agregar)
+Si la carpeta esta vacia, git la ignora por default.
+
+git add . : nos agrega TODOS los archivos
+
+git status: Me dice en que estado estan los archivos
+
+git commit: pasa el archivo del staging area al repositorio
+
+git commit -m "hola": Hace lo mismo que el commit pero me ahorro tiempo.
+
+git push: sube el proyecto a un repositorio remoto
+
+git pull: te trae los cambios que hicieron los otros desarrolladores
+
+git clone (link): copia el codigo del servidor central a tu pc
+Para esto, copiamos el link de github y ponemos git clone (link)
+
+
+git log: Nos muestra el historial de usuarios y cambios que hizo cada uno
+
+git checkout -- (file): deshace los cambios hechos recientemente dentro del codigo.
+
+git diff (file): Nos dice la diferencia entre el file guardado y el cambio.
+
+Al crear un .gitignore y escribir nombres de carpetas en el, estamos diciendole a git que ignore esas carpetas.
+
+git branch: nos muestra todos los branches (y en verde el que estamos).
+
+git branch (nombre): creamos una version alternativa de nuestro git
+ej--> git branch carpincho, nos crea la version alternativa carpincho
+
+git checkout (nombre): Nos hace cambiar de branch a la version (nombre)
+
+-------------------------Si quiero subir algo al git------------
+1. Abro la terminal en la carpeta donde se alojan los ficheros fuente e inicio git:
+
+git init
+
+
+2. Se habrá creado la carpeta .git con la información del proyecto. Añade los ficheros para subir el mismo con este comando: 
+
+git add nombrdelfichero
+
+
+3. Prepara los ficheros que quieres subir con una pequeña explicación acerca de los cambios:
+
+git commit -m “Creado el proyecto inicial” 
+
+
+4. Debes subir los cambios a GitHub. Para ello tienes que saber la ruta del repositorio (acabada en .git) que está en Clone or Download, el botón verde de la página del proyecto. Luego añade el repositorio desde la terminal con este comando: 
+
+git remote add origin URLrepositorio.git 
+
+
+5. Sube los cambios con el siguiente comando: 
+
+git push origin master 
+
+-----------------------------------------------------------------------------------
+ git remote remove origin:    Para eliminar los remotes
+
+ git remote -v:                   Para saber mis remotes 
+
+
+
+
+
+
+
+
