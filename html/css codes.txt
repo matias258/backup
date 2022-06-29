@@ -1,0 +1,13 @@
+<h2 style="color: blue;">CatPhotoApp</h2>= color del texto
+-------------------------todo esto va dentro del <style>-----------------------
+<style> .red-text{color: red;} </style>
+
+<hn class="red-text> palabras al azar </hn>= Otra forma de colorear el texto pero creando una variable
+
+h1 {font-size: 30px;}=tamaño de la fuente para todo h1
+
+h2 {font-family: sans-serif;}=variable que hace que todos los h2 usen el estilo Sans-serif
+
+<link href="link del tipo de letra" rel="stylesheet" type="text/css">
+adentro de <style> : h2 { font-family: La letra } 
+= cambia todo h2 a esa letra

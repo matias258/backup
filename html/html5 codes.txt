@@ -1,0 +1,38 @@
+ 
+<title></title>=Cabeza de la pagina web 
+<head></head>= El titulo de la pag web
+<body></body>= el cuerpo del titulo
+<!-- los comentarios son asi-->
+<h1,h2,hn></h1,h2,hn>= mas titulos 
+<br />= espacio entre lineas
+
+<p></p>= define un paragraph
+<b></b>= letra en negrita
+<i></i>= letra en italica
+<blockquote></blockquote>= Sangria
+<cite></cite>= Cita, fuente, etc
+<hr>= Crea una linea divisora en la pag
+
+<link rel="shortcut icon" type="image/x-icon" href="img/nombredelaimg.ico.jpg.etc">
+         =icono de la pestaña del sitio web, siempre poner al principio del codigo
+<a target="blank" href="https://www.google.com/"> Ir a Google </a>
+         = Crea boton q va a google
+           Tmb puede llevarte a alguna parte de la pc
+
+ <font size=n></font>= Tamaño de la letra 
+<p style="color:red;"></p>= Color del texto
+
+
+LISTAS
+<ul></ul>= comenzar listas
+<li></li>= definir una lista
+<ol></ol>= comenzar una lista ordenada (1. , 2. , 3.)
+
+IMAGENES
+<img src="ubicacion" alt="descripcion si no carga la img" title="cuando toco la img" width="n%" height="m%">
+= pone una imagen, la ubicacion puede ser tmb un link de una img online
+
+TABLAS
+<table></table>= definimos una tabla
+<tr></tr>= Una linea de la tabla
+<td></td>= Un elemento de la linea de la tabla
