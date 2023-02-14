@@ -1,0 +1,26 @@
+which clion 
+#me da la direccion del clion
+
+touch /home/matias/Escritorio/acceso-directo.txt
+
+abrir el acceso directo y escribir:
+[Desktop Entry]
+Name=CLion
+Exec=clion
+Icon=/home/matias/Escritorio/logos/clion.png
+Terminal=false
+Type=Application
+
+cambiar nombre del archivo a Clion.desktop
+
+chmod /home/matias/Escritorio/Clion.desktop 
+# dar permisos al archivo
+
+xdg-open /home/matias/Escritorio/Clion.desktop
+
+click derecho en el archivo y permitir lanzar
+
+LOGOS: 
+bajarse el logo y cambiar el Icon por la direccion del logo
+
+
