@@ -1,0 +1,25 @@
+SUBIR DESDE CLION
+
+//SI NO TIENE UN .GIT EL LUGAR, IR CON LA TERMINAL Y ESCRIBIR git init
+
+git remote add origin https://github.com/matias258/Js-Projects.git
+
+git remote add origin https://github.com/matias258/Js-Projects.git
+
+git remote add origin https://github.com/matias258/Js-Projects.git
+
+
+
+
+ABRIR LA FOLDER EN CLION
+
+COMMITEAR (el tick verde)
+aca tenes que elegir la folder en la q esta tu archivo y esas cosas
+Commitear un mensaje pedorro, y luego click en COMMIT
+(puede estar en inversioned files)
+
+GIT PUSH (la flecha verde)
+elegis lo q acabas de seleccionar de nuevo
+click en PUSH
+
+et voila!
