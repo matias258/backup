@@ -1,0 +1,22 @@
+1. git init
+
+2. git remote add origin <link de github> #preferible HTTPS
+
+3. git add .     
+
+4. git commit -m"algun mensaje boludo"
+
+5. git pull
+
+-> si hay un problema, intentar con:
+	5.1 git pull <link github> main
+	
+	-> si hay un problema, hacer:
+		5.1.a) git config pull.rebase true
+		
+		5.1.b) git pull <link github> main
+	
+
+6. git push -u origin main
+
+Y listo
