@@ -6,6 +6,8 @@
 
 4. git commit -m"algun mensaje boludo"
 
+4.5 Probar git push -u origin main
+
 5. git pull
 
 -> si hay un problema, intentar con:
