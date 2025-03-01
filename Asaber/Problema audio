@@ -1,2 +1,6 @@
+UBUNTU
 pidof pulseaudio|xargs kill
 
+DEBIAN
+systemctl --user restart pipewire.service pipewire.socket
+systemctl --user restart pipewire-pulse.service
